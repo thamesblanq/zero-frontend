@@ -6,6 +6,6 @@ function updateUTCTime() {
     }
   }
   
-  setInterval(updateUTCTime, 1000); // Updates every second
-  updateUTCTime(); // Initialize on load
+  setInterval(updateUTCTime, 1000); 
+  updateUTCTime(); 
   
