@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="profile-card">
+    <img src="./image/eric.jpg" alt="Obiwulu Eric's Profile Picture" data-testid="profilePicture" class="profile-picture">
+    <h1 data-testid="fullName">Obiwulu Eric</h1>
+    <h2 data-testid="jobTitle">Student | Web Developer</h2>
+    <p data-testid="shortBio">
+      I am a university student passionate about software engineering, specializing in web development and AI. I love creating scalable, user-friendly applications that make a difference.
+    </p>
+    <p data-testid="currentLocation"><i class="fas fa-map-marker-alt"></i> Lagos, Nigeria</p>
+    <p data-testid="emailAddress">
+      <a href="mailto:obiwulugodswill@gmail.com">obiwulugodswill@gmail.com</a>
+    </p>
+    <div class="social-links" data-testid="socialLinks">
+      <a href="https://www.linkedin.com/in/obiwulu-god-swill-eric-485627224/" target="_blank" class="btn">LinkedIn</a>
+      <a href="https://github.com/thamesblanq" target="_blank" class="btn">GitHub</a>
+    </div>
+    <p data-testid="currentTimeUTC">Current Time (UTC): <span id="utcTime"></span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
